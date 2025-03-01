@@ -1,0 +1,223 @@
+@media screen and (min-width:2560px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    #grid-image-section {
+        height: 45vh;
+        width: 100vw;
+    }
+
+    #grid-column-one {
+        padding-left: 2em;
+    }
+
+    .image-one {
+        height: 42.5vh;
+        width: 40vh;
+        border-radius: 1em;
+    }
+
+    .image-two {
+        height: 21vh;
+        width: 20vw;
+        border-radius: 1em;
+    }
+
+    .image-three {
+        height: 20vh;
+        width: 20vw;
+        border-radius: 1em;
+    }
+
+    .image-four {
+        height: 42.5vh;
+        width: 15vw;
+        border-radius: 1em;
+    }
+
+    .image-five {
+        height: 20vh;
+        width: 53vh;
+        border-radius: 1em;
+    }
+
+    .image-six {
+        height: 20.5vh;
+        width: 53vh;
+        border-radius: 1em;
+    }
+
+    #support-categories-section {
+        padding: 2em;
+        height: 60vh;
+    }
+
+    #main-heading {
+        font-size: 4em;
+    }
+
+
+    .support-category-image {
+        height: 5vh;
+    }
+
+    .support-card {
+        height: 13vh;
+        width: 22vh;
+        padding: 60px;
+    }
+
+    .sub-heading {
+        font-size: 2em;
+    }
+
+    .search-box {
+        width: 50vw;
+        height: 5vh;
+        border-radius: 1em;
+    }
+
+    #apple-support {
+        height: auto;
+        /* padding-top:40px */
+    }
+
+    .get-support {
+        height: 20vh;
+        grid-template-columns: 1fr 0.5fr;
+    }
+
+    .representative-support {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .support-heading {
+        font-size: 2em;
+    }
+
+    .support-sub-heading {
+        font-size: 1em;
+    }
+
+    .start-button {
+        height: 50px;
+        width: 125px;
+    }
+
+    .button-text {
+        font-size: 1em;
+    }
+
+    .get-support-image {
+        height: 200px;
+        width: 45vw;
+    }
+
+    .download-link {
+        font-size: 1em;
+    }
+
+    .download-icon {
+        font-size: 1em;
+    }
+
+    .app-image {
+        height: 200px;
+        width: 10vw;
+    }
+
+
+    .support-row-grid {
+        grid-template-rows: 0.5fr 2fr 0.8fr;
+        padding: 5em 30em 1em 30em;
+    }
+
+    .support-row-grid-items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        background-color: var(--web-white);
+        border-radius: 1em;
+        padding: 3em;
+    }
+
+    .row-grid-item-text {
+        display: flex;
+        height: 9em;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    .apple-care-plus-image {
+        height: 300px;
+        width: 800px;
+    }
+
+    .suggestion-text {
+        font-size: 1em;
+        padding: 1em;
+    }
+
+    .suggestion-text-heading {
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+
+    .service-provider-link {
+        text-decoration: none;
+        color: var(--web-blue);
+    }
+
+    .service-provider-link:hover {
+        text-decoration: underline;
+    }
+
+    #service-programmes {
+        width: 100vw;
+        padding-left: 480px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    .icon-support-row {
+        margin-left: 475px;
+    }
+
+    .footer-support {
+        margin-left: 393px;
+    }
+
+    .global-horizontal-row {
+        margin-left: 475px;
+        margin-right: 471px;
+    }
+
+    .copyright-row {
+        margin-left: 266px;
+    }
+
+
+    .copyright-row .copyright-country {
+        margin-left: 834px;
+    }
+
+    .copyright-row{
+        /* padding-left: 476px; */
+        padding-right: 469px;
+    }
+
+
+
+
+
+}

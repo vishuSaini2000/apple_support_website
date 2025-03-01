@@ -1,0 +1,277 @@
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    :root {
+        /* font size constants */
+        --icon-size: 0.9em;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    #navigation-link-item .navigation-item a {
+        font-size: 0.8em;
+    }
+
+    .navigation-icon {
+        font-size: var(--icon-size);
+    }
+
+    #grid-column-one {
+        display: grid;
+        grid-template-columns: 0.5fr;
+    }
+
+    .image-one {
+        height: 56vh;
+        width: 30vw;
+    }
+
+    #main-heading {
+        font-size: 3em;
+    }
+
+    #support-categories-section {
+        padding: 2em;
+        height: 125vh;
+    }
+
+    #support-categories {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+
+    }
+
+
+    .support-card {
+        height: 21vh;
+        width: 25vw;
+        padding: 2em;
+    }
+
+    .support-car img {
+        height: 0.8em;
+    }
+
+    .support-card a {
+        font-size: 0.8em;
+    }
+
+    .sub-heading {
+        font-size: 1.8em;
+        font-weight: 500;
+    }
+
+    .search-box {
+        width: 80vw;
+        height: 6vh;
+    }
+
+    .get-support {
+        height: 50vh;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .representative-support {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .support-heading {
+        font-size: 3vh;
+    }
+
+    .support-sub-heading {
+        font-size: 0.9em;
+        text-align: center;
+    }
+
+    .start-button {
+        height: 40px;
+        width: 100px;
+    }
+
+    .button-text {
+        font-size: 0.9em;
+    }
+
+    .get-support-image {
+        height: 20vh;
+        width: 45vw;
+    }
+
+    .download-link {
+        font-size: 0.9em;
+    }
+
+    .download-icon {
+        font-size: 0.9em;
+    }
+
+    .app-image {
+        height: 150px;
+        width: 15vw;
+    }
+
+    .support-row-grid {
+
+        padding: 0.5em 5em 1em 5em;
+    }
+
+   
+
+    #service-programmes {
+        width: 100vw;
+        padding-left: 83px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    .suggestion-text-heading{
+        font-size: 1.2em;
+    }
+
+    ul li{
+        margin: 10px 10px 10px 0px;
+        font-size: 1.2em;
+     }
+
+
+     
+#footer-container{
+    background-color: var(--web-light-grey);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+#footer-container .footer-support, .global-horizontal-row{
+    margin-top:20px;
+    margin-left:0px;
+}
+
+.icon-support-row{
+    margin-left: 50px;
+}
+
+
+.support-title{
+    color: var(--web-grey);
+    font-size: 10px;
+}
+.footer-support .footer-support-categories{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+.footer-support-categories{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-support-categories .link{
+    margin-top:10px;
+}
+
+.link .footer-link{
+    margin-top: 7px;
+}
+
+.link .footer-link:hover{
+    text-decoration: underline;
+}
+
+.footer-title{
+    font-size: 0.8em;
+    color:var(--web-grey) ;
+    font-weight: bold;
+}
+
+.link{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: var(--web-grey);
+    font-size: 0.8em;
+}
+
+.horizontal-line{
+    display: none;
+}
+
+.plus-icon{
+    display: none;
+}
+
+
+.global-horizontal-row{
+    margin-left: 50px;
+    margin-right: 80px;
+}
+
+.copyright-row{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 0.8em;
+    padding-top:10px;
+    padding-bottom:20px;
+    padding-right: 80px;
+    padding-left: 0px;
+   
+}
+
+.copyright-country-mobile{
+    display: none;
+    color: var(--web-grey);
+}
+
+.copyright-row .copyright-title{
+    margin-left:50px
+}
+
+.copyright-row .policy{
+    margin-left:100px
+}
+
+.copyright-country{
+    color: var(--web-grey);
+}
+.copyright-row .copyright-country{
+    margin-left:90px;
+}
+
+.copyright-title{
+    color: var(--web-grey);
+}
+
+.policy{
+    display: flex;
+    justify-content: space-between;
+}
+
+.policy .policy-link{
+    text-decoration: none;
+    color: var(--web-grey);
+    margin-left:2px;
+    
+}
+
+.policy .policy-link:hover{
+    text-decoration: underline;
+}
+
+.policy .policy-horizontal-line{
+    margin-left:5px;
+}
+
+
+}
