@@ -38,7 +38,6 @@
     #support-categories {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-
     }
 
 
@@ -121,12 +120,7 @@
 
     #service-programmes {
         width: 100vw;
-        padding-left: 83px;
-        padding-top: 60px;
-        padding-bottom: 60px;
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
+        padding: 60px 0px 60px 83px;
     }
 
     .suggestion-text-heading{
@@ -139,18 +133,8 @@
      }
 
 
-     
-#footer-container{
-    background-color: var(--web-light-grey);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding-top: 20px;
-}
-
 #footer-container .footer-support, .global-horizontal-row{
-    margin-top:20px;
-    margin-left:0px;
+    margin: 20px 0px 0px 0px;
 }
 
 .icon-support-row{
@@ -163,8 +147,7 @@
     font-size: 10px;
 }
 .footer-support .footer-support-categories{
-    margin-left: 50px;
-    margin-right: 50px;
+    margin: 0px 50px 0px 50px;
 }
 
 
@@ -217,15 +200,9 @@
 }
 
 .copyright-row{
-    display: flex;
-    align-items: center;
     flex-direction: row;
-    justify-content: space-between;
     font-size: 0.8em;
-    padding-top:10px;
-    padding-bottom:20px;
-    padding-right: 80px;
-    padding-left: 0px;
+    padding:10px 80px 20px 0px;
    
 }
 

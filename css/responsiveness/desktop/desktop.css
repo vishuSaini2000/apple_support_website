@@ -82,7 +82,6 @@
 
     #apple-support {
         height: auto;
-        /* padding-top:40px */
     }
 
     .get-support {
@@ -91,8 +90,7 @@
     }
 
     .representative-support {
-        padding-right: 10px;
-        padding-left: 10px;
+        padding:0px 10px 0px 10px;
     }
 
     .support-heading {
@@ -137,23 +135,10 @@
     }
 
     .support-row-grid-items {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
         background-color: var(--web-white);
         border-radius: 1em;
         padding: 3em;
     }
-
-    .row-grid-item-text {
-        display: flex;
-        height: 9em;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-    }
-
 
     .apple-care-plus-image {
         height: 300px;
@@ -181,12 +166,7 @@
 
     #service-programmes {
         width: 100vw;
-        padding-left: 480px;
-        padding-top: 60px;
-        padding-bottom: 60px;
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
+        padding:60px 0px 60px 480px;
     }
 
     .icon-support-row {
@@ -198,21 +178,19 @@
     }
 
     .global-horizontal-row {
-        margin-left: 475px;
-        margin-right: 471px;
+        margin: 0px 471px 0px 475px;
     }
 
     .copyright-row {
-        margin-left: 266px;
+        margin: 0px 0px 0px 266px;
     }
 
 
     .copyright-row .copyright-country {
-        margin-left: 834px;
+        margin: 0px 0px 0px 834px;
     }
 
     .copyright-row{
-        /* padding-left: 476px; */
         padding-right: 469px;
     }
 
