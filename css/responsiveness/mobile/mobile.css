@@ -224,7 +224,7 @@ html,body{
 }
 
 .suggestion-text{
-    font-size:0.5em;
+    font-size:0.6em;
 }
 
 .suggestion-text-heading{
@@ -234,10 +234,7 @@ html,body{
 
 #service-programmes{
     width: 100vw;
-    padding-left: 50px;
-    padding-top: 60px;
-    padding-right: 0px;
-    padding-bottom: 60px;
+    padding:60px 0px 60px 50px;
 }
 
 
